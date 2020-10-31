@@ -29,6 +29,8 @@ set softtabstop=0 noexpandtab shiftwidth=4
 set noshowmode
 set autoindent
 set cursorline
+set splitright
+set splitbelow
 
 " Keymapping
 nnoremap <Leader>ve :e $MYVIMRC<CR>

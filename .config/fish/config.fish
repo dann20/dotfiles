@@ -2,6 +2,7 @@
 set -x EDITOR /usr/bin/nvim
 set -x MYVIMRC /home/dann/.config/nvim/init.vim
 set -x TERM xterm-256color
+set -x BROWSER /usr/bin/firefox
 funcsave fish_greeting
 
 # Set aliases
