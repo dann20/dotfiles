@@ -9,10 +9,18 @@
 	/home/dann/bin/
 	..
 1603612227
+'c
+	/home/dann/.config
+	..
+1604242274
+'d
+	/home/dann
+	Downloads
+1604240968
 'h
 	/home/dann/
 	..
-1604238714
+1604242230
 'k
 	/home/dann/.config
 	lxsession
@@ -34,99 +42,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/dann
-	anaconda3
-24
-d/home
-	dann
-1
-d/
-	tmp
-17
-d/home/dann
-	Downloads
-18
-d/home/dann/Downloads
-	6.png
-11
-d/home/dann
-	Downloads
-18
-d/home
-	dann
-1
-d/home/dann
-	Downloads
-18
-d/home/dann/Downloads
-	fontawesome-free-5.15.1-desktop
-2
-d/home/dann/Downloads/fontawesome-free-5.15.1-desktop
-	..
-0
-d/home/dann/Downloads
-	polybar-themes-master
-5
-d/home/dann
-	Downloads
-18
-d/home/dann/Downloads
-	fontawesome-free-5.15.1-desktop
-2
-d/home/dann
-	Downloads
-18
-d/home
-	..
-0
-d/
-	home
-4
-d/home
-	..
-0
-d/
-	home
-4
-d/home
-	dann
-1
-d/home/dann
-	.config
-3
-d/home/dann/.config
-	volumeicon
-35
-d/home/dann/.config/volumeicon
-	..
-0
-d/home/dann/.config
-	volumeicon
-35
-d/home/dann/.config/volumeicon
-	..
-0
-d/home/dann/.config
-	vifm
-34
-d/home/dann/.config/vifm
-	vifmrc
-5
-d/home/dann/.config
-	procps
-27
-d/home/dann/.config/procps
-	..
-0
-d/home/dann/.config
-	procps
-27
-d/home/dann
-	Documents
-8
-d/home/dann/Documents
-	html
-1
 d/home/dann/Documents/html
 	hyperlinks_files
 1
@@ -317,23 +232,116 @@ d/home/dann/.config
 	vifm
 36
 d/home/dann/.config/vifm
-	colors
+	..
+0
+d/home/dann/.config
+	vifm
+36
+d/home/dann
+	.config
+3
+d/home
+	dann
 1
+d/home/dann
+	.config
+3
+d/home/dann/.config
+	vifm
+36
+d/home/dann/.config/vifm
+	..
+0
+d/home/dann
+	.urxvt
+15
+d/home/dann/.urxvt
+	..
+0
+d/home/dann
+	Downloads
+18
+d/home/dann/Downloads
+	6.png
+12
+d/home/dann
+	Music
+19
+d/home
+	dann
+1
+d/
+	boot
+1
+d/boot
+	efi
+1
+d/
+	dev
+2
+d/dev
+	vcsu3
+43
+d/home/dann
+	.config
+3
+d/home/dann/.config
+	..
+0
+d/home/dann
+	Downloads
+18
+d/home/dann/Downloads
+	6.png
+12
+d/home/dann
+	Downloads
+18
+d/home/dann/Downloads
+	8.jpg
+14
+d/home/dann
+	Downloads
+18
+d/home/dann/Downloads
+	7.jpg
+13
+d/home/dann
+	Downloads
+18
+d/home
+	dann
+1
+d/home/dann
+	Downloads
+18
+d/home/dann/Downloads
+	5.jpg
+11
+d/home/dann
+	.config
+3
+d/home/dann/.config
+	vifm
+36
+d/home/dann/.config/vifm
+	scripts
+2
+d/home/dann/.config/vifm/scripts
+	imgc
+2
 d/home/dann
 	Downloads
 18
 d/home/dann/Downloads
 	polybar-2
 5
-d/home/dann/.config/vifm
-	colors
-1
 d/home/dann
 	Downloads
 18
 d/home/dann/Downloads
-	3.jpg
-9
+	4.jpg
+10
 d
 
 # Right window history (oldest to newest):
@@ -434,13 +442,14 @@ D
 :view
 :!rm?
 :mark
+:reload
 :q
 
 # Search history (oldest to newest):
 /python
-/vifm
-/.config
 /nvim
+/.config
+/vifm
 
 # Prompt history (oldest to newest):
 
