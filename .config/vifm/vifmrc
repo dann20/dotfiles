@@ -252,6 +252,10 @@ filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
         \ shotwell,
 fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
          \ identify %f
+" fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
+"          \ imgt %px %py %pw %ph %c
+"          \ %pc
+"          \ imgc %px %py %pw %ph
 
 " OpenRaster
 filextype *.ora
