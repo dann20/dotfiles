@@ -1,11 +1,21 @@
-" vim: filetype=vifm :
-" Sample configuration file for vifm (last updated: 2 June, 2019)
-" You can edit this file by hand.
-" The " character at the beginning of a line comments out the line.
-" Blank lines are ignored.
-" The basic format for each item is shown with an example.
-
+" Edited by dann
+" vim: filetype=vim
 " ------------------------------------------------------------------------------
+"GET ICONS FOR VIFM
+" file types
+set classify=' :dir:/, :exe:, :reg:, :link:'
+" various file names
+set classify+=' ::../::, ::*.sh::, ::*.[hc]pp::, ::*.[hc]::, ::/^copying|license$/::, ::.git/,,*.git/::, ::*.epub,,*.fb2,,*.djvu::, ::*.pdf::, ::*.htm,,*.html,,**.[sx]html,,*.xml::'
+" archives
+set classify+=' ::*.7z,,*.ace,,*.arj,,*.bz2,,*.cpio,,*.deb,,*.dz,,*.gz,,*.jar,,*.lzh,,*.lzma,,*.rar,,*.rpm,,*.rz,,*.tar,,*.taz,,*.tb2,,*.tbz,,*.tbz2,,*.tgz,,*.tlz,,*.trz,,*.txz,,*.tz,,*.tz2,,*.xz,,*.z,,*.zip,,*.zoo::'
+" images
+set classify+=' ::*.bmp,,*.gif,,*.jpeg,,*.jpg,,*.ico,,*.png,,*.ppm,,*.svg,,*.svgz,,*.tga,,*.tif,,*.tiff,,*.xbm,,*.xcf,,*.xpm,,*.xspf,,*.xwd::'
+" audio
+set classify+=' ::*.aac,,*.anx,,*.asf,,*.au,,*.axa,,*.flac,,*.m2a,,*.m4a,,*.mid,,*.midi,,*.mp3,,*.mpc,,*.oga,,*.ogg,,*.ogx,,*.ra,,*.ram,,*.rm,,*.spx,,*.wav,,*.wma,,*.ac3::'
+" media
+set classify+=' ::*.avi,,*.ts,,*.axv,,*.divx,,*.m2v,,*.m4p,,*.m4v,,.mka,,*.mkv,,*.mov,,*.mp4,,*.flv,,*.mp4v,,*.mpeg,,*.mpg,,*.nuv,,*.ogv,,*.pbm,,*.pgm,,*.qt,,*.vob,,*.wmv,,*.xvid::'
+" office files
+set classify+=' ::*.doc,,*.docx::, ::*.xls,,*.xls[mx]::, ::*.pptx,,*.ppt::'
 
 " Command used to edit files in various contexts.  The default is vim.
 " If you would like to use another vi clone such as Elvis or Vile
@@ -101,6 +111,8 @@ set incsearch
 " Try to leave some space from cursor to upper/lower border in lists
 
 set scrolloff=4
+
+" Enable hidden files
 set dotfiles
 
 " Don't do too many requests to slow file systems
@@ -375,8 +387,7 @@ filextype */
 
 " ------------------------------------------------------------------------------
 
-" What should be saved automatically between vifm sessions.  Drop "savedirs"
-" value if you don't want vifm to remember last visited directories for you.
+" What should be saved automatically between vifm sessions.  Drop "savedirs" value if you don't want vifm to remember last visited directories for you.
 set vifminfo=dhistory,savedirs,chistory,state,tui,shistory,
     \phistory,fhistory,dirstack,registers,bookmarks,bmarks
 
@@ -422,9 +433,11 @@ if has('win')
     nnoremap yf :!echo %"c:gs!\!/! %i | clip<cr>
 elseif executable('xclip')
     " Yank current directory path into the clipboard
-    nnoremap yd :!echo %d | xclip %i<cr>
+	nnoremap yd :!echo -n %d | xclip -selection clipboard %i<cr>:echo expand('%"d') "is yanked to clipboard"<cr>
+    " nnoremap yd :!echo %d | xclip -selection clipboard %i<cr>
     " Yank current file path into the clipboard
-    nnoremap yf :!echo %c:p | xclip %i<cr>
+	nnoremap yf :!echo -n %c:p | xclip -selection clipboard %i<cr>:echo expand('%"c:p') "is yanked to clipboard"<cr>
+    " nnoremap yf :!echo %c:p | xclip -selection clipboard %i<cr>
 elseif executable('xsel')
     " Yank current directory path into primary and selection clipboards
     nnoremap yd :!echo -n %d | xsel --input --primary %i &&
@@ -438,6 +451,14 @@ endif
 nnoremap I cw<c-a>
 nnoremap cc cw<c-u>
 nnoremap A cw
+
+" Faster movement
+nnoremap J 5j
+nnoremap K 5k
+
+" Resize panels
+nnoremap - <C-w>5<
+nnoremap _ <C-w>5>
 
 " Open console in current directory
 nnoremap ,t :!xterm &<cr>
@@ -457,6 +478,10 @@ nnoremap <f5> :copy<cr>
 nnoremap <f6> :move<cr>
 nnoremap <f7> :mkdir<space>
 nnoremap <f8> :delete<cr>
+
+" Keymapping for switching windows
+nnoremap <M-h> <C-w>h
+nnoremap <M-l> <C-w>l
 
 " ------------------------------------------------------------------------------
 
