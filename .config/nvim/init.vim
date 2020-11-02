@@ -8,7 +8,6 @@ Plug 'dikiaap/minimalist'
 Plug 'tpope/vim-surround'
 Plug 'ap/vim-css-color'
 Plug 'wadackel/vim-dogrun'
-"Plug 'vim-python/python-syntax'
 Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -17,6 +16,7 @@ Plug 'bronson/vim-trailing-whitespace'
 Plug 'kyoz/purify'
 Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
+Plug 'bling/vim-bufferline'
 call plug#end()
 
 " General Settings
@@ -45,12 +45,15 @@ nnoremap <M-h> <C-w>h
 nnoremap <M-w> <C-w>w
 nnoremap <M-d> <C-d>
 nnoremap <M-u> <C-u>
+nnoremap <<> <C-w><
+nnoremap <>> <C-w>>
 
 " Plugins Settings
 let g:lightline = {'colorscheme': 'wombat'}
 colorscheme minimalist
 let NERDTreeShowHidden=1
 let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''", '<':'>'}
+let g:bufferline_fname_mod = ':p:~'
 
 "Afterload Settings
 hi CursorLine term=bold cterm=bold

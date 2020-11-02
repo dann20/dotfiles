@@ -15,6 +15,7 @@ alias ps="ps -A"
 alias pacmanlog="nvim /var/log/pacman.log"
 alias config="/usr/bin/git --git-dir=/home/dann/dotfiles --work-tree=/home/dann"
 alias cp="cp -i" # confirm before overwriting sth
+alias cfish="clear;fish"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
