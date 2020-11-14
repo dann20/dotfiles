@@ -1,25 +1,24 @@
-" Preload Settings
+" PRELOAD SETTINGS
 set nocompatible
 
-" Plugins
+" PLUGINS
 call plug#begin()
 Plug 'itchyny/lightline.vim'
 Plug 'dikiaap/minimalist'
-Plug 'tpope/vim-surround'
 Plug 'ap/vim-css-color'
-Plug 'wadackel/vim-dogrun'
-Plug 'sheerun/vim-polyglot'
+Plug 'wadackel/vim-dogrun' "theme
+Plug 'sheerun/vim-polyglot' "language packs
 Plug 'preservim/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons' "nerdtree icons
 Plug 'bronson/vim-trailing-whitespace'
-Plug 'kyoz/purify'
 Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
 Plug 'bling/vim-bufferline'
+Plug 'junegunn/goyo.vim' "z-mode
 call plug#end()
 
-" General Settings
+" GENERAL SETTINGS
 set encoding=UTF-8
 set number relativenumber
 set ic
@@ -34,13 +33,15 @@ set cursorline
 set splitright
 set splitbelow
 
-" Keymapping
+" KEYMAPPING
 nnoremap <Leader>ve :e $MYVIMRC<CR>
 nnoremap <Leader>vr :source $MYVIMRC<CR>
 map <C-n> :NERDTreeToggle<CR>
+map <M-t> :Goyo \| set linebreak<CR>
 	" Copy/Paste keys
 vnoremap <C-c> "*y :let @+=@*<CR>
 map <C-p> "+p
+map <C-P> "+P
 	" Change focus keys
 nnoremap <M-l> <C-w>l
 nnoremap <M-k> <C-w>k
@@ -62,12 +63,17 @@ nnoremap <M-r> <C-w>x
 	"" Rotate windows
 nnoremap <M-R> <C-w>r
 
-" Plugins Settings
+" PLUGIN SETTINGS
 let g:lightline = {'colorscheme': 'wombat'}
 colorscheme minimalist
 let NERDTreeShowHidden=1
+	"" Add <> pair to Auto Pairs
 let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''", '<':'>'}
+	"" Dir representation bufferline
 let g:bufferline_fname_mod = ':p:~'
+	"" Settings for goyo (relative number, width)"
+let g:goyo_linenr = 1
+let g:goyo_width = 90
 
-"Afterload Settings
+"AFTERLOAD SETTINGS
 hi CursorLine term=bold cterm=bold
