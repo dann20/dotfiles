@@ -1,9 +1,6 @@
 /*
  * sidetab-adapta theme,
  * based on sidetab theme by deadguy.
- *
- * This theme has been dedicated to the public domain.
- *
  vim: filetype=css
  */
 
@@ -38,14 +35,14 @@ configuration {
         active-background:          @accent-color;
 }
 
-#window {
+window {
         anchor:   west;
         location: west;
         width:    370px;
         height:   100%;
 }
 
-#mainbox {
+mainbox {
         children: [ entry, listview, mode-switcher ];
 }
 
