@@ -1,39 +1,40 @@
-/**
- * User: deadguy
- * Copyright: deadguy
+/*
+ * modified by dann
+ * from sidetab.rasi
  vim: filetype=css
  */
 
 configuration {
-	display-drun:    "Activate";
+	display-drun:    "Apps";
 	display-run:     "Execute";
+	display-ssh:	 "SSH";
 	display-window:  "Window";
 	show-icons:      true;
 	sidebar-mode:    true;
 }
 
 * {
-	background-color:            #080808;
-	text-color:                  #d3d7cf;
+    background-color:            rgba ( 0, 0, 0, 0 % );
+	text-color:                  #ffffff;
 	selbg:                       #34baeb;
 	actbg:                       #262626;
 	urgbg:                       #e53935;
-	winbg:			     #34baeb;
+	winbg:			    		 #34baeb;
 
-	selected-normal-foreground:  @winbg;
-	normal-foreground:           @text-color;
-	selected-normal-background:  @actbg;
-	normal-background:           @background-color;
+    selected-normal-foreground:  @winbg;
+    normal-foreground:           @text-color;
+    selected-normal-background:  @actbg;
+    normal-background:           @background-color;
 
-	selected-urgent-foreground:  @background-color;
-	urgent-foreground:           @text-color;
-	selected-urgent-background:  @urgbg;
-	urgent-background:           @background-color;
+    selected-urgent-foreground:  @background-color;
+    urgent-foreground:           @text-color;
+    selected-urgent-background:  @urgbg;
+    urgent-background:           @background-color;
 
-	selected-active-foreground:  @winbg;
-	active-foreground:           @text-color;
-	selected-active-background:  @actbg;
-	active-background:           @selbg;
+    selected-active-foreground:  @winbg;
+    active-foreground:           @text-color;
+    selected-active-background:  @actbg;
+    active-background:           @selbg;
 
 	line-margin:                 2;
 	line-padding:                2;
@@ -50,6 +51,7 @@ window {
 	width:		 22%;
 	orientation: horizontal;
 	children:	 [mainbox];
+	background-color: rgba(26,26,26,90%);
 }
 
 mainbox {
@@ -61,7 +63,8 @@ button { padding: 5px 2px; }
 
 button selected {
 	background-color: @active-background;
-	text-color:       @background-color;
+	text-color:       @actbg;
+	font-weight: 	bold;
 }
 
 inputbar {
