@@ -6,7 +6,6 @@ call plug#begin()
 Plug 'itchyny/lightline.vim'
 Plug 'dikiaap/minimalist'
 Plug 'ap/vim-css-color'
-Plug 'wadackel/vim-dogrun' "theme
 Plug 'sheerun/vim-polyglot' "language packs
 Plug 'preservim/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -62,13 +61,16 @@ nnoremap <M-]> <C-w>+
 nnoremap <M-r> <C-w>x
 	"" Rotate windows
 nnoremap <M-R> <C-w>r
+	" Completion
+nnoremap <M-n> <C-n>
 
 " PLUGIN SETTINGS
 let g:lightline = {'colorscheme': 'wombat'}
 colorscheme minimalist
 let NERDTreeShowHidden=1
-	"" Add <> pair to Auto Pairs
-let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''", '<':'>'}
+	"" Add <> pair to Auto Pairs in html, css, js file
+autocmd BufRead,BufNewFile *.css,*.html,*.js
+	\ let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''", '<':'>'}
 	"" Dir representation bufferline
 let g:bufferline_fname_mod = ':p:~'
 	"" Settings for goyo (relative number, width)"
