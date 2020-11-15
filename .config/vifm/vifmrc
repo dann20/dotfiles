@@ -243,19 +243,11 @@ filetype *.[1-8] man ./%c
 fileviewer *.[1-8] man ./%c | col -b
 
 " Images
-filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-        \ {View in sxiv}
-        \ sxiv %f,
-        \ {View in gpicview}
-        \ gpicview %c,
-        \ {View in shotwell}
-        \ shotwell,
+filextype *.jpg,*.jpeg,*.png,*.gif,*.bmp,*xpm
+       \ {View in feh}
+		\feh -d -. -B black --edit %d &
 fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
          \ identify %f
-" fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-"          \ imgt %px %py %pw %ph %c
-"          \ %pc
-"          \ imgc %px %py %pw %ph
 
 " OpenRaster
 filextype *.ora
