@@ -1,12 +1,13 @@
 # i3 config file (v4)
 # modified by dann
-# vim: filetype=python
+# vim: filetype=i3config
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
 
 # Set terminal
 set $myTerm alacritty
+set $myTerm2 termite
 
 # Set colors variables
 set $background_color #1a1a1a
@@ -66,12 +67,16 @@ bindsym $mod+Ctrl+m exec $myTerm -e 'alsamixer'
 bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
 bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 1 toggle # mute sound
+
 # Start Applications
 bindsym $mod+Ctrl+b exec $myTerm -e 'bmenu'
 bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec $myTerm -e vifm
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
-# bindsym $mod+F5 exec terminal -e 'mocp'
 bindsym $mod+F5 exec $myTerm -e 'mocp'
 bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t exec --no-startup-id picom -b
@@ -138,7 +143,7 @@ bindsym $mod+Shift+s sticky toggle
 bindsym $mod+a focus parent
 
 # move the currently focused window to the scratchpad
-bindsym $mod+Shift+minus move scratchpad; scratchpad show; resize set 1600 900; move position center
+bindsym $mod+Shift+minus floating enable; resize set 1600 900; move scratchpad; scratchpad show; move position center
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
@@ -246,7 +251,7 @@ exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec --no-startup-id volumeicon
-exec --no-startup-id $myTerm --name terminal_scratchpad
+exec --no-startup-id $myTerm --class terminal_scratchpad
 # exec_always --no-startup-id /home/dann/.config/polybar/launch.sh
 
 # switch to workspace with urgent window automatically
