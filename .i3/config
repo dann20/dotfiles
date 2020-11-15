@@ -1,6 +1,6 @@
 # i3 config file (v4)
 # modified by dann
-# vim: filetype=i3config
+# vim: filetype=python
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
