@@ -62,7 +62,7 @@ listview {
 	spacing: 0.2em;
 	dynamic: false;
 	cycle: true;
-	padding: 0px 5px 0px 5px;
+	padding: 0px 2px 0px 0px;
 }
 
 inputbar {
@@ -79,7 +79,6 @@ entry{
 
 prompt{
 	padding: 4px;
-    background-color:  rgba(26,26,26,90%);
 	text-color: @text-color;
 	border: 1px;
 }
@@ -108,7 +107,7 @@ element selected.normal {
 	background-color: @selected-normal-background;
 	text-color: @selected-normal-foreground;
 	border-color: @active-background;
-	border:  0 5px solid 0 0;
+	border:  0 0px solid 0 5px;
 }
 
 element selected.urgent {
