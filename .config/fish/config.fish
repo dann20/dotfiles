@@ -9,6 +9,7 @@ funcsave fish_greeting
 alias ls="ls -A"
 alias vim="nvim"
 alias vi="nvim"
+alias .="vifm ."
 alias ..="cd .."
 alias ...="cd ../.."
 alias ps="ps -A"

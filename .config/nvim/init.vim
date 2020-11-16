@@ -21,7 +21,7 @@ call plug#end()
 set encoding=UTF-8
 set number relativenumber
 set ic
-set nohls is
+set hls is
 	" Tab settings
 set tabstop=4
 set softtabstop=0 noexpandtab shiftwidth=4
