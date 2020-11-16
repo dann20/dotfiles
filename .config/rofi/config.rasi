@@ -1,6 +1,6 @@
 configuration {
 	show-icons: true;
 	sidebar-mode: true;
-	theme: "~/.config/rofi/modified_sidetab.rasi";
+	theme: "~/.config/rofi/flamingo.rasi";
 	modi: "drun,run,ssh";
 }
