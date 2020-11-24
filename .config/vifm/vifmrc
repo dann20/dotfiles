@@ -103,7 +103,7 @@ set smartcase
 
 " Don't highlight search results automatically
 
-set nohlsearch
+set hlsearch
 
 " Use increment searching (search while typing)
 set incsearch
