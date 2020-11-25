@@ -19,6 +19,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
+Plug 'morhetz/gruvbox'
+Plug 'sainnhe/gruvbox-material'
+Plug 'sainnhe/sonokai'
 call plug#end()
 
 " GENERAL SETTINGS
@@ -27,6 +30,7 @@ set number relativenumber
 set ic
 set hls is
 set numberwidth=5
+syntax on
 	" Tab settings
 set tabstop=4
 set softtabstop=0 noexpandtab shiftwidth=4
@@ -99,8 +103,22 @@ nnoremap <Leader>9 :9b<CR>
 nnoremap <Leader>0 :10b<CR>
 
 " PLUGIN SETTINGS
+	"Colorscheme
 let g:lightline = {'colorscheme': 'wombat'}
-colorscheme minimalist
+let g:sonokai_transparent_background = 1
+let g:sonokai_menu_selection_background = 'blue'
+let g:sonokai_diagnostic_line_highlight = 1
+let g:sonokai_better_performance = 1
+colorscheme sonokai
+" let g:gruvbox_material_background = 'hard'
+" let g:gruvbox_material_enable_bold = 1
+" let g:gruvbox_material_enable_italic = 1
+" let g:gruvbox_material_transparent_background = 1
+" let g:gruvbox_material_menu_selection_background = 'blue'
+" let g:gruvbox_material_diagnostic_line_highlight = 1
+" let g:gruvbox_material_better_performance = 1
+" colorscheme gruvbox-material
+	"NERDTree
 let NERDTreeShowHidden=1
 let NERDTreeMinimalUI=1
 	" Close vim when there is only nerdtree window left
