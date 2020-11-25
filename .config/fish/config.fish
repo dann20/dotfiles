@@ -8,7 +8,7 @@ set -gx FZF_DEFAULT_OPTS '--height 40% --layout=reverse --inline-info'
 funcsave fish_greeting
 
 # Set aliases
-alias ls="ls -A"
+alias ls="ls -A --color"
 alias vim="nvim"
 alias vi="nvim"
 alias .="vifm ."
@@ -20,7 +20,7 @@ alias config="/usr/bin/git --git-dir=/home/dann/dotfiles --work-tree=/home/dann"
 alias cp="cp -i" # confirm before overwriting sth
 alias cfish="clear;fish"
 alias restart_polybar="killall polybar; zsh  ~/.config/polybar/launch.sh"
-alias fd="fd -H"
+alias fd="fd -H --type f"
 alias cat="bat"
 
 # >>> conda initialize >>>
