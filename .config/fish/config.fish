@@ -16,7 +16,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ps="ps -A"
 alias pacmanlog="nvim /var/log/pacman.log"
-alias config="/usr/bin/git --git-dir=/home/dann/dotfiles --work-tree=/home/dann"
+alias config="/usr/bin/git --git-dir=/home/dann/.cfg --work-tree=/home/dann"
 alias cp="cp -i" # confirm before overwriting sth
 alias cfish="clear;fish"
 alias restart_polybar="killall polybar; zsh  ~/.config/polybar/launch.sh"
