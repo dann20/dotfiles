@@ -22,4 +22,5 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'sainnhe/sonokai'
 Plug 'tpope/vim-surround'
 Plug 'easymotion/vim-easymotion'
+Plug 'airblade/vim-gitgutter'
 call plug#end()

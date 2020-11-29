@@ -11,4 +11,5 @@ source $HOME/.config/nvim/plugins-config/autopairs_config.vim
 source $HOME/.config/nvim/plugins-config/bufferline_config.vim
 source $HOME/.config/nvim/plugins-config/goyo_config.vim
 source $HOME/.config/nvim/plugins-config/coc_nvim_config.vim
+source $HOME/.config/nvim/plugins-config/gitgutter_config.vim
 source $HOME/.config/nvim/general-settings/afterload.vim

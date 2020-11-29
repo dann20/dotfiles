@@ -52,5 +52,12 @@ nnoremap <Leader>8 :8b<CR>
 nnoremap <Leader>9 :9b<CR>
 nnoremap <Leader>0 :10b<CR>
 
+	" Return to previous/last cursor location
+nnoremap <M-o> <C-o>
+nnoremap <M-i> <C-i>
+
+	" Open Commands fzf
+nnoremap <Leader>c :Commands<CR>
+
 	" Open help in vertical split
 cnoremap help vertical help
