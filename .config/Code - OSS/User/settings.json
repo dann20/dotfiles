@@ -1,0 +1,22 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷",
+    "clangd.path": "/home/dann/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/bin/clangd",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["<C-q>"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [":"],
+            "commands": [
+                "workbench.action.showCommands",
+            ]
+        }
+    ],
+    "editor.cursorBlinking": "solid",
+    "editor.fontFamily": "mononoki Nerd Font",
+    "editor.fontSize": 16
+}
