@@ -185,7 +185,7 @@ command! reload :write | restart
 
 " Pdf
 " filextype *.pdf epdfview %c %i &, apvlv %c, xpdf %c
-filextype *.pdf zathura &
+filextype *.pdf zathura %f &
 fileviewer *.pdf pdftotext -nopgbrk %c -
 
 " PostScript
