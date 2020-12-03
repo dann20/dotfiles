@@ -5,6 +5,7 @@ set -x TERM xterm-256color
 set -x BROWSER /usr/bin/firefox
 set -gx FZF_DEFAULT_COMMAND 'fd --type f'
 set -gx FZF_DEFAULT_OPTS '--height 40% --layout=reverse --inline-info'
+set -gx CPATH '/usr/local/include/pcapplusplus'
 funcsave fish_greeting
 
 # Set aliases
