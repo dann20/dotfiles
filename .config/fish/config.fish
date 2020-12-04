@@ -9,7 +9,8 @@ set -gx CPATH '/usr/local/include/pcapplusplus'
 funcsave fish_greeting
 
 # Set aliases
-alias ls="ls -A --color"
+alias ls="exa -a"
+alias la="exa -la"
 alias vim="nvim"
 alias vi="nvim"
 alias .="vifm ."
@@ -28,6 +29,3 @@ alias cat="bat"
 # !! Contents within this block are managed by 'conda init' !!
 eval /home/dann/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
-
-# Enable Vim mode
-fish_vi_key_bindings
