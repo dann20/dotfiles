@@ -6,7 +6,7 @@ source $HOME/.config/nvim/general-settings/general.vim
 source $HOME/.config/nvim/keymaps/keymaps.vim
 source $HOME/.config/nvim/colorschemes-config/sonokai_config.vim
 source $HOME/.config/nvim/plugins-config/lightline_config.vim
-" source $HOME/.config/nvim/plugins-config/nerdtree_config.vim
+source $HOME/.config/nvim/plugins-config/nerdtree_config.vim
 source $HOME/.config/nvim/plugins-config/autopairs_config.vim
 source $HOME/.config/nvim/plugins-config/bufferline_config.vim
 source $HOME/.config/nvim/plugins-config/goyo_config.vim

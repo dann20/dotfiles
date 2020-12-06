@@ -5,9 +5,9 @@ Plug 'itchyny/lightline.vim'
 Plug 'dikiaap/minimalist'
 Plug 'ap/vim-css-color'
 Plug 'sheerun/vim-polyglot' "language packs
-" Plug 'preservim/nerdtree'
-" Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-" Plug 'ryanoasis/vim-devicons' "nerdtree icons
+Plug 'preservim/nerdtree'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'ryanoasis/vim-devicons' "nerdtree icons
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
