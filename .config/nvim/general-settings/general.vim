@@ -3,7 +3,7 @@
 set encoding=UTF-8
 set number relativenumber
 set ic
-set hls is
+set nohls is
 set numberwidth=5
 syntax on
 	" Tab settings

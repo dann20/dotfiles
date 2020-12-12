@@ -246,7 +246,7 @@ fileviewer *.[1-8] man ./%c | col -b
 " Images
 filextype *.jpg,*.jpeg,*.png,*.gif,*.bmp,*xpm
        \ {View in feh}
-		\feh -d -. -B black --edit %d &
+		\feh -d -. -B black --edit %d --start-at %d/%c &
 fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
          \ identify %f
 

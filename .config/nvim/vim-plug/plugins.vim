@@ -2,7 +2,7 @@
 
 call plug#begin()
 Plug 'itchyny/lightline.vim'
-Plug 'dikiaap/minimalist'
+" Plug 'dikiaap/minimalist'
 Plug 'ap/vim-css-color'
 Plug 'sheerun/vim-polyglot' "language packs
 Plug 'preservim/nerdtree'
@@ -17,8 +17,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
-Plug 'morhetz/gruvbox'
-Plug 'sainnhe/gruvbox-material'
+" Plug 'morhetz/gruvbox'
+" Plug 'sainnhe/gruvbox-material'
 Plug 'sainnhe/sonokai'
 Plug 'tpope/vim-surround'
 " Plug 'easymotion/vim-easymotion'

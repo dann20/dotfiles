@@ -161,7 +161,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 
 # Open specific windows in specific workspaces
-assign [class="firefox"] 1
+# assign [class="firefox"] 1
 
 # Open specific applications in floating mode
 for_window [class="Nm-connection-editor"] floating enable border pixel 2 move position center
