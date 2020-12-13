@@ -136,6 +136,7 @@ ex ()
   else
     echo "'$1' is not a valid file"
   fi
+}
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -152,3 +153,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Enable Starship theme
+eval "$(starship init bash)"
