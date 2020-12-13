@@ -25,6 +25,9 @@ alias restart_polybar="killall polybar; zsh  ~/.config/polybar/launch.sh"
 alias fd="fd -H --type f"
 alias cat="bat"
 
+# Enable starship theme
+starship init fish | source
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 eval /home/dann/anaconda3/bin/conda "shell.fish" "hook" $argv | source

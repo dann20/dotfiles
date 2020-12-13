@@ -33,7 +33,7 @@ floating_modifier $mod
 bindsym $mod+Return exec $myTerm
 
 # kill focused window
-bindsym $mod+q kill
+bindsym $mod+Shift+q kill
 
 # start program launcher
 bindsym $mod+d exec rofi -show run 	-font "mononoki Nerd Font 14"

@@ -1,1 +1,1 @@
-/home/dann/.local/share/omf/themes/budspencer/fish_prompt.fish
+/home/dann/.local/share/omf/themes/default/fish_prompt.fish
