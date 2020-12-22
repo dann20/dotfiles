@@ -138,3 +138,6 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# Enable Starship theme
+eval "$(starship init zsh)"
