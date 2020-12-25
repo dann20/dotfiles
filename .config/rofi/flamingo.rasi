@@ -15,12 +15,12 @@ configuration {
 }
 
 * {
-    background-color:            rgba ( 0, 0, 0, 0 % );
-	text-color:                  #ffffff;
-	selbg:                       #34baeb;
-	actbg:                       #262626;
-	urgbg:                       #e53935;
-	winbg:			    		 #34baeb;
+    background-color: rgba ( 0, 0, 0, 0 % );
+	text-color: #ffffff;
+	selbg: #34baeb;
+	actbg: #262626;
+	urgbg: #e53935;
+	winbg: #34baeb;
 
     selected-normal-foreground:  @winbg;
     normal-foreground:           @text-color;
