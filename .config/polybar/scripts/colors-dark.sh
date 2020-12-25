@@ -20,6 +20,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#34baeb"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#34baeb"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #34baeb;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #34baeb;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -35,6 +37,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#ffb300"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#ffb300"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #ffb300;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #ffb300;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -50,6 +54,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#1e88e5"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#1e88e5"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #1e88e5;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #1e88e5;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -65,6 +71,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#546e7a"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#546e7a"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #546e7a;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #546e7a;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -80,6 +88,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#6d4c41"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#6d4c41"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #6d4c41;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #6d4c41;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -95,6 +105,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#00acc1"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#00acc1"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #00acc1;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #00acc1;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -110,6 +122,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#f4511e"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#f4511e"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #f4511e;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #f4511e;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -125,6 +139,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#5e35b1"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#5e35b1"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #5e35b1;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #5e35b1;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -140,6 +156,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#43a047"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#43a047"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #43a047;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #43a047;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -155,6 +173,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#757575"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#757575"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #757575;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #757575;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -170,6 +190,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#3949ab"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#3949ab"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #3949ab;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #3949ab;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -185,6 +207,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#039be5"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#039be5"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #039be5;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #039be5;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -200,6 +224,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#7cb342"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#7cb342"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #7cb342;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #7cb342;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -215,6 +241,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#c0ca33"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#c0ca33"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #c0ca33;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #c0ca33;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -230,6 +258,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#fb8c00"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#fb8c00"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #fb8c00;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #fb8c00;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -245,6 +275,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#d81b60"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#d81b60"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #d81b60;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #d81b60;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -260,6 +292,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#8e24aa"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#8e24aa"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #8e24aa;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #8e24aa;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -275,6 +309,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#e53935"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#e53935"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #e53935;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #e53935;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -290,6 +326,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#00897b"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#00897b"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #00897b;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #00897b;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
@@ -305,6 +343,8 @@ sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#fdd835"/g' $PDIR/scr
 sed -i -e 's/HIGHLIGHT_BACKGROUND=.*/HIGHLIGHT_BACKGROUND="#fdd835"/g' $PDIR/scripts/color-switch.sh
 sed -i -e 's/selbg: .*/selbg: #fdd835;/g' $ROFI_CONFIG
 sed -i -e 's/winbg: .*/winbg: #fdd835;/g' $ROFI_CONFIG
+sed -i -e 's/actbg: .*/actbg: #262626;/g' $ROFI_CONFIG
+sed -i -e 's/background-color:   .*/background-color:   rgba(26,26,26,90%);/g' $ROFI_CONFIG
 # Restarting polybar
 $LAUNCH &
 
