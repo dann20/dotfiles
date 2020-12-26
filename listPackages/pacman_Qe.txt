@@ -136,7 +136,6 @@ manjaro-browser-settings 20201114-1
 manjaro-firmware 20160419-1
 manjaro-hello 0.6.6-3
 manjaro-hotfixes 2018.08-6
-manjaro-i3-settings 20200919-1
 manjaro-printer 20200215-2
 manjaro-ranger-settings 20190513-2
 manjaro-release 20.2-1
@@ -213,6 +212,7 @@ realvnc-vnc-viewer 6.20.529-1
 reiserfsprogs 3.6.27-3
 ripgrep 12.1.1-1
 rofi 1.6.1-1
+rofi-dmenu 1-1
 rsync 3.2.3-1
 s-nail 14.9.19-2
 sbxkb 0.7.6-5

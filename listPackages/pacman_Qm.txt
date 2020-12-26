@@ -7,4 +7,5 @@ mongodb-tools-bin 100.2.1-1
 onedrive-abraunegg 2.4.8-1
 picom-jonaburg-git 0.1-4
 realvnc-vnc-viewer 6.20.529-1
+rofi-dmenu 1-1
 ttf-material-icons-git r145.96206ade0e-1
