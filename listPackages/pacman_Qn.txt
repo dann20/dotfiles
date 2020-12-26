@@ -83,7 +83,6 @@ cifs-utils 6.11-1
 ckbcomp 1.194-1
 clipit 1:1.4.3-2
 clucene 2.3.3.4-11
-cmake 3.19.1-1
 cmus 2.8.0-5
 code 1.51.1-1
 colord 1.4.5-1
@@ -115,7 +114,6 @@ dhcpcd 9.3.3-1
 dictd 1.13.0-1
 diffutils 3.7-3
 ding-libs 0.6.1-3
-dmd 1:2.094.2-1
 dmenu-manjaro 5.0-1
 dmidecode 3.3-1
 dmraid 1.0.0.rc16.3-12
@@ -293,7 +291,6 @@ jemalloc 1:5.2.1-3
 jfsutils 1.1.15-7
 jre-openjdk 14.0.2.u12-1
 jre-openjdk-headless 14.0.2.u12-1
-js60 60.9.0-2
 js78 78.5.0-2
 json-c 0.15-1
 json-glib 1.6.0-1
@@ -698,7 +695,6 @@ menu-cache 1.1.0-2
 mesa 20.2.3-1
 mesa-demos 8.4.0-4
 mesa-vdpau 20.2.3-1
-meson 0.56.0-1
 metis 5.1.0.p10-1
 mhwd 0.6.5-2
 mhwd-amdgpu 19.1.0-1
@@ -749,7 +745,6 @@ networkmanager-pptp 1.2.9dev+10+gb41b0d0-2
 networkmanager-vpnc 1.2.7dev+20+gdca3aea-2
 nfs-utils 2.5.2-2
 nfsidmap 2.5.2-2
-ninja 1.10.1-1
 nitrogen 1.6.1-3
 nm-connection-editor 1.18.0-1
 node-gyp 7.1.0-1
@@ -867,7 +862,6 @@ python-appdirs 1.4.4-1
 python-asn1crypto 1.4.0-1
 python-attrs 20.3.0-1
 python-automat 20.2.0-2
-python-babel 2.8.1-1
 python-beaker 1.11.0-4
 python-cachecontrol 0.12.6-1
 python-cairo 1.20.0-1
@@ -883,15 +877,12 @@ python-dbus-common 1.2.16-1
 python-distlib 0.3.1-1
 python-distro 1.5.0-1
 python-docopt 0.6.2-7
-python-docutils 0.16-2
 python-geoip 1.3.2-8
 python-gobject 3.38.0-1
 python-html5lib 1.1-4
 python-hyperlink 20.0.1-1
 python-idna 2.10-1
-python-imagesize 1.2.0-2
 python-incremental 17.5.0-4
-python-jinja 2.11.2-2
 python-mako 1.1.3-1
 python-markupsafe 1.1.1-4
 python-msgpack 1.0.0-1
@@ -908,14 +899,12 @@ python-pyaml 20.4.0-2
 python-pyasn1 0.4.8-2
 python-pyasn1-modules 0.2.8-1
 python-pycparser 2.20-1
-python-pygments 2.7.2-1
 python-pyhamcrest 1.9.0-5
 python-pyopenssl 19.1.0-2
 python-pyparsing 2.4.7-1
 python-pyqt5 5.15.2-1
 python-pyqt5-sip 12.8.1-1
 python-pysmbc 1.0.23-1
-python-pytz 2020.4-1
 python-pyxdg 0.26-6
 python-rencode 1.0.6-3
 python-reportlab 3.5.55-1
@@ -926,15 +915,6 @@ python-service-identity 18.1.0-4
 python-setproctitle 1.1.10-5
 python-setuptools 1:50.3.2-1
 python-six 1.15.0-1
-python-snowballstemmer 2.0.0-4
-python-sphinx 3.3.1-1
-python-sphinx-alabaster-theme 0.7.12-4
-python-sphinxcontrib-applehelp 1.0.2-1
-python-sphinxcontrib-devhelp 1.0.2-1
-python-sphinxcontrib-htmlhelp 1.0.3-1
-python-sphinxcontrib-jsmath 1.0.1-4
-python-sphinxcontrib-qthelp 1.0.3-1
-python-sphinxcontrib-serializinghtml 1.1.4-1
 python-toml 0.10.2-1
 python-twisted 20.3.0-1
 python-urllib3 1.25.10-2
@@ -964,7 +944,6 @@ recode 3.7.8-1
 redland 1:1.0.17-8
 reiserfsprogs 3.6.27-3
 rest 0.8.1-3
-rhash 1.4.0-1
 ripgrep 12.1.1-1
 rofi 1.6.1-1
 rpcbind 1.2.5-3
@@ -1058,7 +1037,6 @@ upower 0.99.11-3
 urxvt-perls 2.3-1
 usbmuxd 1.1.1-1
 usbutils 013-1
-uthash 2.1.0-2
 util-linux 2.36.1-3
 util-linux-libs 2.36.1-3
 v4l-utils 1.20.0-1
