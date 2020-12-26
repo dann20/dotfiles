@@ -39,9 +39,6 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec rofi -show run 	-font "mononoki Nerd Font 14"
 bindsym $mod+Shift+d exec rofi -show drun -font "mononoki Nerd Font 14"
 
-# launch categorized menu
-bindsym $mod+z exec --no-startup-id morc_menu
-
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
 bindsym $mod+Shift+m exec $myTerm -e 'alsamixer'
 
