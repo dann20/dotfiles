@@ -1,0 +1,10 @@
+betterlockscreen 3.0.1-6
+dict-wn 3.1-4
+i3lock-color 2.13.c.1-1
+mongodb-bin 4.4.2-1
+mongodb-compass 1.22.1-1
+mongodb-tools-bin 100.2.1-1
+onedrive-abraunegg 2.4.8-1
+picom-jonaburg-git 0.1-4
+realvnc-vnc-viewer 6.20.529-1
+ttf-material-icons-git r145.96206ade0e-1
