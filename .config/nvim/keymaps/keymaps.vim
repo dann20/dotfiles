@@ -18,6 +18,8 @@ nnoremap <M-w> <C-w>w
 	" Surf keys
 nnoremap <M-d> <C-d>
 nnoremap <M-u> <C-u>
+nnoremap <S-l> 10l
+nnoremap <S-h> 10h
 	" Resize keys
 nnoremap <M-,> <C-w><
 nnoremap <M-.> <C-w>>

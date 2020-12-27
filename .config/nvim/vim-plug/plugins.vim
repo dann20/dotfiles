@@ -25,4 +25,5 @@ Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
 Plug 'psliwka/vim-smoothie'
 Plug 'vifm/vifm.vim'
+Plug 'vimwiki/vimwiki'
 call plug#end()
