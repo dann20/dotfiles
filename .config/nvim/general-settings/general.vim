@@ -20,7 +20,14 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 	" Correct comment highlight for coc-settings.json
 autocmd FileType json syntax match Comment +\/\/.\+$+
 	" Automatically deletes all trailing whitespace on save
-autocmd BufWritePre * %s/\s\+$//e
+fun! StripTrailingWhitespace()
+    " Don't strip on these filetypes
+    if &ft =~ 'ruby\|markdown\|perl'
+        return
+    endif
+    %s/\s\+$//e
+endfun
+autocmd BufWritePre * call StripTrailingWhitespace()
 	" Set buffer can be hidden when switch to another buffer (not written)
 set hidden
 set confirm
