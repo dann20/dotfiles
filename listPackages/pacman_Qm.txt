@@ -1,6 +1,10 @@
 betterlockscreen 3.0.1-6
+boostnote 0.16.1-4
+colorpicker 1.0.f5d441a-2
 dict-wn 3.1-4
+electron4-bin 4.2.12-3
 i3lock-color 2.13.c.1-1
+mhwd-nvidia-340xx 340.108-1
 mongodb-bin 4.4.2-1
 mongodb-compass 1.22.1-1
 mongodb-tools-bin 100.2.1-1
