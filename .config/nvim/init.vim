@@ -13,5 +13,6 @@ source $HOME/.config/nvim/plugins-config/goyo_config.vim
 source $HOME/.config/nvim/plugins-config/coc_nvim_config.vim
 source $HOME/.config/nvim/plugins-config/gitgutter_config.vim
 source $HOME/.config/nvim/plugins-config/vifm_config.vim
+source $HOME/.config/nvim/plugins-config/trailing-whitespace-config.vim
 " source $HOME/.config/nvim/plugins-config/vim-smoothie_config.vim
 source $HOME/.config/nvim/general-settings/afterload.vim
