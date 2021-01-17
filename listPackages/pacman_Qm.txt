@@ -13,3 +13,4 @@ picom-jonaburg-git 0.1-4
 realvnc-vnc-viewer 6.20.529-1
 rofi-dmenu 1-1
 ttf-material-icons-git r145.96206ade0e-1
+ttf-vista-fonts 1-10

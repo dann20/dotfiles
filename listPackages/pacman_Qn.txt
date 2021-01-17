@@ -74,6 +74,7 @@ c-ares 1.17.1-1
 ca-certificates 20181109-4
 ca-certificates-mozilla 3.60-1
 ca-certificates-utils 20181109-4
+cabextract 1.9.1-2
 cairo 1.17.4-3
 cairomm 1.12.2-4
 cantarell-fonts 1:0.201-1
@@ -157,6 +158,7 @@ flac 1.3.3-2
 flex 2.6.4-3
 fluidsynth 2.1.5-2
 fontconfig 2:2.13.91+48+gfcb0420-2
+fontforge 20200314-5
 foomatic-db 3:20200822-1
 foomatic-db-engine 4:20200206-1
 foomatic-db-gutenprint-ppds 5.3.4-1
@@ -286,6 +288,7 @@ iw 5.9-1
 jack 0.125.0-9
 jansson 2.13.1-1
 jasper 2.0.19-1
+java-openjfx 14.0.2.u0-2
 java-runtime-common 3-3
 jbig2dec 0.19-1
 jemalloc 1:5.2.1-3
@@ -569,6 +572,7 @@ libtirpc 1.3.1-1
 libtommath 1.2.0-3
 libtool 2.4.6+42+gb88cebd5-14
 libtorrent-rasterbar 1:1.2.10-7
+libuninameslist 20200413-2
 libunistring 0.9.10-3
 libunwind 1.3.1-2
 libupnp 1.14.0-1
@@ -680,7 +684,7 @@ manjaro-icons 20191015-1
 manjaro-keyring 20201216-1
 manjaro-printer 20200215-2
 manjaro-ranger-settings 20190513-2
-manjaro-release 20.2-1
+manjaro-release 20.2.1-1
 manjaro-settings-manager 0.5.6-10
 manjaro-settings-manager-notifier 0.5.6-10
 manjaro-system 20210101-3
@@ -729,7 +733,7 @@ neofetch 7.1.0-2
 neon 0.31.2-1
 neovim 0.4.4-1
 nerd-fonts-noto-sans-mono 2.0.0-1
-nerd-fonts-terminus 2.1.0-3
+nerd-fonts-terminus 2.1.0-4
 net-snmp 5.9-3
 net-tools 1.60.20181103git-2
 netctl 1.24-1
@@ -774,9 +778,9 @@ pacman 5.2.2-3
 pacman-mirrors 4.19.1-1
 pacui 1.14-1
 pam 1.5.0-2
-pamac-cli 10.0.3-4
-pamac-common 10.0.3-4
-pamac-gtk 10.0.3-4
+pamac-cli 10.0.4-0.1
+pamac-common 10.0.4-0.1
+pamac-gtk 10.0.4-0.1
 pambase 20200721.1-2
 pango 1:1.48.0-1
 pangomm 2.42.2-1
@@ -848,6 +852,7 @@ poppler-data 0.4.10-1
 poppler-glib 20.12.1-1
 popt 1.18-1
 portaudio 1:19.6.0-7
+potrace 1.16-2
 powertop 2.13-1
 ppp 2.4.7-7
 pptpclient 1.10.0-2
@@ -945,6 +950,10 @@ rofi 1.6.1-1
 rpcbind 1.2.5-3
 rsync 3.2.3-1
 rtmpdump 1:2.4.r96.fa8646d-6
+ruby 2.7.2-1
+ruby-irb 1.2.7-1
+ruby-reline 0.1.6-1
+rubygems 3.1.4-1
 run-parts 4.8.6.1-2
 rxvt-unicode 9.22-10
 rxvt-unicode-terminfo 9.22-10
