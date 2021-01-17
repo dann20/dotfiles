@@ -48,7 +48,7 @@ dmidecode 3.3-1
 dmraid 1.0.0.rc16.3-12
 dnsmasq 2.82-2
 dosfstools 4.1-3
-downgrade 9.0.0-1
+downgrade 9.0.0-2
 e2fsprogs 1.45.6-3
 ecryptfs-utils 111-4
 efibootmgr 17-2
@@ -63,7 +63,7 @@ ffmpegthumbnailer 2.2.2-2
 file 5.39-1
 filesystem 2020.09-2
 findutils 4.7.0-2
-firefox 84.0.1-0.1
+firefox 84.0.2-0.1
 fish 3.1.2-2
 flac 1.3.3-2
 flex 2.6.4-3
@@ -159,9 +159,6 @@ mlocate 0.26.git.20170220-5
 mobile-broadband-provider-info 20190618-2
 moc 1:2.5.2-3
 modemmanager 1.14.8-1
-mongodb-bin 4.4.2-1
-mongodb-compass 1.22.1-1
-mongodb-tools-bin 100.2.1-1
 mosquitto 1.6.11-2
 mousepad 0.5.0-1
 nano 5.4-1
@@ -188,7 +185,7 @@ openssh 8.4p1-2
 os-prober 1.77-1
 p7zip 16.02-6
 pacman 5.2.2-3
-pamac-gtk 10.0.4-0.1
+pamac-gtk 10.0.4-2
 pass 1.7.3-2
 patch 2.7.6-8
 patchutils 0.4.2-1
