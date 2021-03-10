@@ -95,6 +95,22 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
+alias ls='exa -a'
+alias la="exa -la"
+alias vim="nvim"
+alias vi="nvim"
+alias .="vifm ."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ps="ps -A"
+alias pacmanlog="nvim /var/log/pacman.log"
+alias config="/usr/bin/git --git-dir=/home/dann/.cfg --work-tree=/home/dann"
+alias cp="cp -i" # confirm before overwriting sth
+alias cfish="clear;fish"
+alias fd="fd -H --type f"
+alias cat="bat"
+alias cbash="clear;bash"
+alias czsh="clear;zsh"
 
 xhost +local:root > /dev/null 2>&1
 
