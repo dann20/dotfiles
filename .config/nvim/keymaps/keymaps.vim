@@ -40,7 +40,7 @@ nnoremap S :%s//g<Left><Left>
 		" \l       : list buffers
 		" Ctrl-w \g : forward/last-used
 		" \1 \2 \3 : go to buffer 1/2/3 etc
-nnoremap <Leader>l :Buffers<CR>
+nnoremap <Leader>k :Buffers<CR>
 nnoremap <C-w> :bn<CR>
 nnoremap <Leader>g :e#<CR>
 nnoremap <Leader>1 :1b<CR>
@@ -53,6 +53,11 @@ nnoremap <Leader>7 :7b<CR>
 nnoremap <Leader>8 :8b<CR>
 nnoremap <Leader>9 :9b<CR>
 nnoremap <Leader>0 :10b<CR>
+nnoremap <Leader>l :bn<CR>
+nnoremap <Leader>L :blast<CR>
+nnoremap <Leader>j :bp<CR>
+nnoremap <Leader>J :bfirst<CR>
+nnoremap <Leader>d :bdelete<CR>
 
 	" Return to previous/last cursor location
 nnoremap <M-o> <C-o>
@@ -60,6 +65,8 @@ nnoremap <M-i> <C-i>
 
 	" Open Commands fzf
 nnoremap <Leader>c :Commands<CR>
+	" Open CocCommands
+nnoremap <Leader>C :CocCommand<CR>
 
 	" Open help in vertical split
 cnoremap help vertical help

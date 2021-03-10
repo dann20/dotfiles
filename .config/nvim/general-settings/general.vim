@@ -23,7 +23,7 @@ autocmd FileType json syntax match Comment +\/\/.\+$+
 	" Automatically deletes all trailing whitespace on save
 fun! StripTrailingWhitespace()
     " Don't strip on these filetypes
-    if &ft =~ 'ruby\|markdown\|perl\|vimwiki'
+    if &ft =~ 'ruby\|markdown\|perl'
         return
     endif
     %s/\s\+$//e

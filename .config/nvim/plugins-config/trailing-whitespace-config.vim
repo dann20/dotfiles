@@ -1,1 +1,1 @@
-let g:extra_whitespace_ignored_filetypes = ['markdown', 'vimwiki', 'md']
+let g:extra_whitespace_ignored_filetypes = ['vimwiki', 'md', 'markdown']
