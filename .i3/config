@@ -76,10 +76,10 @@ bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # move focused window
-bindsym $mod+Shift+h move left
-bindsym $mod+Shift+j down
-bindsym $mod+Shift+k up
-bindsym $mod+Shift+l move right
+bindsym $mod+Shift+h exec i3l move left
+bindsym $mod+Shift+j exec i3l move down
+bindsym $mod+Shift+k exec i3l move up
+bindsym $mod+Shift+l exec i3l move right
 
 # workspace back and forth (with/without active container)
 workspace_auto_back_and_forth yes
@@ -87,8 +87,8 @@ bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
 # split orientation
-bindsym $mod+c split h;exec notify-send 'tile horizontally'
-bindsym $mod+v split v;exec notify-send 'tile vertically'
+bindsym $mod+c split h
+bindsym $mod+v split v
 
 # toggle fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -123,6 +123,17 @@ set $ws6 6
 set $ws7 7
 set $ws8 8
 set $ws9 9
+
+# Workspace layouts
+set $i3l vstack 0.6 right to workspace $ws1
+set $i3l vstack 0.6 right to workspace $ws2
+set $i3l vstack 0.6 right to workspace $ws3
+set $i3l vstack 0.6 right to workspace $ws4
+set $i3l vstack 0.6 right to workspace $ws5
+set $i3l vstack 0.6 right to workspace $ws6
+set $i3l vstack 0.6 right to workspace $ws7
+set $i3l vstack 0.6 right to workspace $ws8
+set $i3l vstack 0.6 right to workspace $ws9
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -175,13 +186,14 @@ for_window [instance="terminal_scratchpad"] move position center; move scratchpa
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id nitrogen --restore; sleep 1; picom --experimental-backend -b
+exec --no-startup-id nitrogen --restore; sleep 1; picom --experimental-backends -b
 exec --no-startup-id xautolock -time 10 -locker "betterlockscreen -l dim" -detectsleep
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec --no-startup-id volumeicon
 exec_always --no-startup-id $myTerm --class terminal_scratchpad
 exec_always --no-startup-id /home/dann/.config/polybar/launch.sh
+exec_always i3-layouts
 # exec --no-startup-id nm-applet
 # exec --no-startup-id xfce4-power-manager
 # exec --no-startup-id pamac-tray
@@ -204,6 +216,14 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # Set shut down, restart and locking features
 bindsym $mod+Shift+0 exec --no-startup-id $HOME/.config/polybar/scripts/sysmenu
+
+# Layouts
+bindsym $mod+s exec i3l vstack 0.6
+bindsym $mod+comma exec i3l hstack 0.6
+bindsym $mod+o exec i3l spiral 0.5 outside
+bindsym $mod+n exec i3l 2columns
+bindsym $mod+m exec i3l 3columns
+bindsym $mod+period exec i3l companion
 
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize" exec notify-send "Mode Resize"
