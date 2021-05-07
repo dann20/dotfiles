@@ -64,9 +64,23 @@ nnoremap <M-o> <C-o>
 nnoremap <M-i> <C-i>
 
 	" Open Commands fzf
-nnoremap <Leader>c :Commands<CR>
-	" Open CocCommands
-nnoremap <Leader>C :CocCommand<CR>
+map <Leader>c :Commands<CR>
 
 	" Open help in vertical split
 cnoremap help vertical help
+
+	" Map double ESC to escape in terminal mode
+tnoremap <silent> <C-[><C-[> <C-\><C-n>
+
+	" Run selection in python
+map <Leader>R :CocCommand python.execSelectionInTerminal<CR>
+
+	" Disable/Enable bufferline
+nnoremap <Leader><Leader>b :au! CursorHold<CR>
+nnoremap <Leader>b :call bufferline#init_echo()<CR>
+
+	" Restart coc.nvim
+nnoremap <Leader><Leader>r :CocRestart<CR>
+
+	" Outline mode based on indentation (python mostly)
+nnoremap <Leader><Leader>f :set foldmethod=indent<CR>
